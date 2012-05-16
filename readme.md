@@ -3,7 +3,7 @@ Install: ```npm install slack```
 ***
 ###res.send():  
 ```javascript
-app.send(body, code)
+res.send(body, code)
 ```  
 ```code``` is optional, if given will set the HTTP status code. If ```body``` is an ___object___ then the output will be converted to ___json___ and the ___content-type___ header will be set to ___application/json___. Otherwise the output won't be converted and will be sent as ___text/html___.
 ***
